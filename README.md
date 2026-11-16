@@ -1,3 +1,5 @@
+[🌐 Live Demo — Visit Beanora](https://beanora-dqr7.vercel.app/)
+
 _____________________________________________________________________
 
 # Beanora - Premium Coffee Shop & E-Commerce Web Application
