@@ -1,0 +1,50 @@
+.categories-section {
+  background-color: #f7f3eb; /* بيج فاتح أهدى من الـ Hero */
+}
+
+.section-title {
+  color: #2b1704;
+  font-size: 2rem;
+}
+
+/* تنسيق الكارت والتنقل بالماوس */
+.category-card {
+  border: 1px solid #eae2d6;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(131, 27, 16, 0.12) !important;
+  border-color: #831b10;
+}
+
+/* الأيقونة والإنيميشن */
+.category-icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #fcf9f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.category-icon {
+  font-size: 1.8rem;
+  color: #831b10;
+}
+
+.category-card:hover .category-icon-wrapper {
+  background-color: #831b10;
+}
+
+.category-card:hover .category-icon {
+  color: #ffffff;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}

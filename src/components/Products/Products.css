@@ -1,0 +1,72 @@
+.products-section {
+  background-color: #fcf9f2;
+}
+
+.section-title {
+  color: #2b1704;
+  font-size: 2.2rem;
+}
+
+.text-coffee {
+  color: #831b10 !important;
+}
+
+/* حاوية الصورة */
+.product-img-wrapper {
+  height: 220px;
+  overflow: hidden;
+  background-color: #f0e6d2;
+}
+
+/* ضبط محاذاة الصورة */
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.4s ease;
+}
+
+/* التفاعل عند الهوفر */
+.product-card {
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(131, 27, 16, 0.12) !important;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.08);
+}
+
+/* اقتطاع الوصف عند سطرين لتوحيد أطوال الكروت */
+.product-desc {
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+/* زر إضافه السلة الدائري */
+.btn-add-cart {
+  background-color: #831b10;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-add-cart:hover {
+  background-color: #2b1704;
+  color: #ffffff;
+  transform: scale(1.1);
+}

@@ -1,0 +1,42 @@
+.offer-section {
+  background-color: #fcf9f2;
+}
+
+/* خلفية البانر بني داكن فاخر */
+.offer-banner {
+  background: linear-gradient(135deg, #2b1704 0%, #831b10 100%);
+  border: 1px solid #521c16;
+}
+
+.btn-offer {
+  color: #2b1704;
+  transition: all 0.3s ease;
+}
+
+.btn-offer:hover {
+  background-color: #ffffff;
+  color: #831b10;
+  transform: translateY(-3px);
+}
+
+/* أشكال جمالية خلف النص */
+.offer-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+
+.circle-1 {
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  right: -50px;
+}
+
+.circle-2 {
+  width: 200px;
+  height: 200px;
+  bottom: -80px;
+  left: -40px;
+}

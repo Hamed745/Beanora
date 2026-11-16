@@ -1,0 +1,38 @@
+.features-section {
+  background-color: #f7f3eb; /* بيج متناسق مع السكشنز السابقة */
+}
+
+.text-coffee {
+  color: #831b10 !important;
+}
+
+/* دائرة الأيقونة */
+.feature-icon-box {
+  width: 70px;
+  height: 70px;
+  background-color: #fcf9f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 1px solid #f0e6d2;
+}
+
+/* تفاعل الكارت مع الماوس */
+.feature-card {
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(131, 27, 16, 0.08) !important;
+}
+
+.feature-card:hover .feature-icon-box {
+  background-color: #831b10;
+}
+
+.feature-card:hover .feature-icon-box i {
+  color: #ffffff !important;
+}
